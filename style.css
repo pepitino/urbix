@@ -449,6 +449,26 @@ th, td {
         flex-direction: column;
         text-align: center;
     }
+    .fotodelacara {
+    height: 90px;
+    border-radius: 50%;
+    width: 90px;
+}
+.buttonlink img {
+    height: 50px;
+    width: 50px;
+    border-radius: 10%;
+    margin: 5px;
+    
+    transition: transform 0.3s;
+}
+.buttonlink:hover img {
+    transform: scale(1.2);
+}
+
+.navbar{
+    position: static;
+}
 }
 .fotodelacara {
     height: 90px;
